@@ -8,8 +8,36 @@
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="logo" href="../index.html"><span class="logo-mark">熊</span><span>黑熊老師自然科學繪本百科</span></a><nav class="nav-links"><a href="../index.html">首頁</a><a href="entries.html">全部條目</a><a href="teacher-guide.html">教師使用</a><a href="about.html">關於本站</a></nav></div></header>
-<main class="container entry-layout"><article class="article" id="entryArticle"></article><aside class="sidebar"><div class="toc"><h3>條目格式</h3><a href="#grade">適合年級</a><a href="#topic">對應課程主題</a><a href="#opening">黑熊老師開場</a><a href="#story">繪本故事</a><a href="#explanation">科學概念解釋</a><a href="#activity">小實驗</a><a href="#prompts">圖像提示詞</a><a href="#teacher">教師提醒</a><a href="#cross">跨年級銜接</a></div></aside></main>
-<footer class="footer"><div class="container">可列印成學習單或投影導讀。</div></footer>
+<main class="container entry-layout">
+  <article class="article">
+    <div class="view-switch" aria-label="閱讀模式切換">
+      <button id="modeArticle" class="button">教學模式</button>
+      <button id="modeStorybook" class="button button-secondary">繪本模式</button>
+      <a class="button button-secondary" href="entries.html">返回條目列表</a>
+    </div>
+    <div id="entryArticle"></div>
+    <div id="storybookView" class="hidden"></div>
+  </article>
+  <aside class="sidebar">
+    <div class="toc">
+      <h3>閱讀導覽</h3>
+      <a href="#grade">適合年級</a>
+      <a href="#topic">對應課程主題</a>
+      <a href="#opening">黑熊老師開場</a>
+      <a href="#story">繪本故事</a>
+      <a href="#explanation">科學概念解釋</a>
+      <a href="#activity">小實驗</a>
+      <a href="#prompts">圖像提示詞</a>
+      <a href="#teacher">教師提醒</a>
+      <a href="#cross">跨年級銜接</a>
+      <div class="notice" style="margin-top:16px;">
+        <strong>V2 繪本版功能</strong><br>
+        可切換「教學模式」與「繪本模式」，讓條目同時適合備課與導讀。繪本模式可逐頁閱讀故事、對話、概念焦點與插圖提示。
+      </div>
+    </div>
+  </aside>
+</main>
+<footer class="footer"><div class="container">黑熊老師自然科學繪本百科 V2｜教學模式 × 繪本模式</div></footer>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

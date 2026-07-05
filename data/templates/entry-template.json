@@ -1,0 +1,41 @@
+{
+  "id": "grade-topic-slug",
+  "title": "條目名稱",
+  "grade": "國小三年級／國中七年級",
+  "stage": "國小中年級／國小高年級／國中",
+  "topic": "主題",
+  "subtopic": "子題",
+  "version_reference": ["康軒", "翰林", "南一"],
+  "keywords": ["關鍵字1", "關鍵字2"],
+  "summary": "80–120 字摘要。",
+  "opening": "黑熊老師開場，100–150 字，幽默、有畫面。",
+  "story": "繪本故事，300–500 字，含角色對話、生活情境與科學問題。",
+  "explanation": "科學概念解釋，依年級調整難度。",
+  "one_sentence": "用一句話說懂。",
+  "life_examples": ["生活例子1", "生活例子2", "生活例子3"],
+  "misconception": [
+    {"myth": "迷思：", "truth": "正確理解："}
+  ],
+  "activity": {
+    "name": "活動名稱",
+    "materials": ["材料1", "材料2"],
+    "steps": ["步驟1", "步驟2", "步驟3"],
+    "observation_focus": "觀察重點",
+    "thinking_questions": ["思考問題1", "思考問題2"],
+    "safety": "安全提醒"
+  },
+  "image_prompts": {
+    "cover": "封面圖提示詞",
+    "storybook_page": "繪本內頁圖提示詞",
+    "science_diagram": "科學示意圖提示詞"
+  },
+  "student_questions": [
+    {"type": "基礎理解題", "question": "問題"},
+    {"type": "生活應用題", "question": "問題"},
+    {"type": "探究思考題", "question": "問題"}
+  ],
+  "teacher_notes": "給老師的教學提醒。",
+  "cross_grade_connection": "跨年級銜接。",
+  "created_at": "YYYY-MM-DD",
+  "updated_at": "YYYY-MM-DD"
+}

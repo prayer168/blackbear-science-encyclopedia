@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>黑熊老師自然科學繪本百科</title>
+  <meta name="description" content="面向國小三年級到國中九年級的自然科學科普繪本百科網站。">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html"><span class="logo-mark">熊</span><span>黑熊老師自然科學繪本百科</span></a>
+      <nav class="nav-links" aria-label="主選單">
+        <a href="#grades">年級入口</a>
+        <a href="#topics">主題入口</a>
+        <a href="#entries">條目搜尋</a>
+        <a href="pages/teacher-guide.html">教師使用</a>
+        <a href="pages/about.html">關於本站</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">115 學年度課程架構 × 繪本式科普 × 靜態網站</span>
+          <h1>讓自然科學從課本走進孩子的想像力。</h1>
+          <p class="lead">這是一套可長期擴充的自然科學百科網站，面向國小三年級到國中九年級。每個條目都用角色故事、生活例子、小實驗與圖像提示詞，把抽象概念變成可以看見、可以討論、可以教學的科學繪本。</p>
+          <div class="pill-row">
+            <a class="button" href="#entries">開始閱讀條目</a>
+            <a class="button" href="pages/entries.html">查看全部條目</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="bear-portrait">🐻‍❄️</div>
+          <h2>黑熊老師導讀</h2>
+          <p>「科學不是背答案，而是學會用好奇心敲門。小苔負責問歪，阿磁負責動手，水水負責觀察，光光負責吐槽，而我負責把大家拉回科學概念。」</p>
+          <div class="quote">今日任務：看到一片葉子，不只說它是葉子，還要問：它在幫植物做什麼？</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="grades">
+      <div class="container">
+        <h2>年級快速入口</h2>
+        <div class="card-grid" id="gradeQuick"></div>
+      </div>
+    </section>
+
+    <section class="section" id="topics">
+      <div class="container">
+        <h2>主題快速入口</h2>
+        <p class="lead">依國小中年級、國小高年級與國中三階段安排，先建立可擴充的主題地圖，再逐步增加條目。</p>
+        <div class="card-grid" id="topicQuick"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>教師使用方式</h2>
+        <div class="card-grid">
+          <article class="card"><h3>課前引起動機</h3><p>用「黑熊老師開場」或「繪本故事」引發學生提問，適合投影在大螢幕。</p></article>
+          <article class="card"><h3>課中概念整理</h3><p>用「科學概念解釋」和「用一句話說懂」協助學生形成簡明概念。</p></article>
+          <article class="card"><h3>課後探究延伸</h3><p>用小實驗、生活例子與三題問題，轉成學習單、作業或探究任務。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="entries">
+      <div class="container">
+        <h2>推薦條目與搜尋</h2>
+        <div class="search-panel">
+          <div class="controls">
+            <input id="searchInput" type="search" placeholder="搜尋：植物、昆蟲、熱、傳導……" aria-label="搜尋條目">
+            <select id="gradeFilter" aria-label="年級篩選"></select>
+            <select id="stageFilter" aria-label="階段篩選"></select>
+            <select id="topicFilter" aria-label="主題篩選"></select>
+          </div>
+        </div>
+        <div class="entry-list" id="entryList"></div>
+        <h2 style="margin-top: 42px;">最近新增條目</h2>
+        <div class="entry-list" id="recommendedEntries"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">黑熊老師自然科學繪本百科｜靜態網站原型｜資料以 JSON 管理，適合部署到 GitHub Pages。</div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
